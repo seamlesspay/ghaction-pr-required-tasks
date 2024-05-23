@@ -1,0 +1,6 @@
+name: 'PR Required Tasks'
+description: 'Checks to see if required tasks in a PR's description are marked complete.'
+author: 'wyattisimo'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

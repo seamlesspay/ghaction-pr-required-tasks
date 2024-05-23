@@ -1,0 +1,53 @@
+# Test PR Checklists (COMPLETED)
+
+Lorem ipsum dolor sit amet.
+
+- [ ] non-required task 1
+
+<!-- required_task -->
+- [X] required task 1
+
+<!-- required_task -->
+- [x] required task 2
+
+- [X] non-required task 2
+- [ ] non-required task 3
+
+<!-- required_task -->
+- [x] required task 3
+- [x] required task 4
+
+  <!-- required_task -->
+  - [x] required task 5
+  - [X] required task 6
+  - [X] required task 7
+  - [X] required task 8
+  - [x] required task 9
+  - [X] required task 10
+
+Lorem ipsum dolor sit amet.
+
+<!-- required_task_group -->
+- [x] required task 1 (group 1)
+- [x] required task 2 (group 1)
+
+<!-- required_task_group -->
+- [X] required task 3 (group 2)
+- [x] required task 4 (group 2)
+
+<!-- required_task_group -->
+- [x] required task 5 (group 3)
+- [X] required task 6 (group 3)
+- [x] required task 7 (group 3)
+
+- [ ] non-required task 4
+
+    <!-- required_task_group -->
+  - [x] required task 8 (group 4)
+- [x] required task 9 (group 4)
+  - [x] required task 10 (group 4)
+    - [x] required task 11 (group 4)
+
+- [ ] non-required task 5
+- [X] non-required task 6
+- [X] non-required task 7
